@@ -26,3 +26,6 @@ Request for getting average rating of a movie will contain:
 Response for getting average rating of a movie will contain:
 * `averageRating` - Average rating of the movie.
 * response status - it will be SUCCESS or FAILURE
+
+  ![image](https://github.com/user-attachments/assets/c5f17597-80a4-401f-9369-0f942465900f)
+
