@@ -1,8 +1,4 @@
-# Implement ratings functionality for movies
-
-## Problem Statement
-
-You are building book my show. As a part of this system, you need to expose a functionality using which users can rate movies and check out average ratings of movies.
+Ratings functionality for movies
 
 ## Requirements
 We want to build 2 functionalities:
@@ -21,8 +17,6 @@ Response for rating a movie will contain:
 * rating object
 * response status - it will be SUCCESS or FAILURE
 
-Make sure to add basic validations.
-
 ### 2. Get average rating of a movie
 - Users should be able to get average rating of a movie.
 
@@ -32,13 +26,3 @@ Request for getting average rating of a movie will contain:
 Response for getting average rating of a movie will contain:
 * `averageRating` - Average rating of the movie.
 * response status - it will be SUCCESS or FAILURE
-
-
-## Instructions
-1. Carefully look at classes in `dtos` package. These classes represent the request and response of the functionality which we want to implement.
-2. Carefully examine the models package to understand the database schema.
-3. Implement the `rateMovie` and `getAverageMovieRating` method inside the `RatingsController`.
-4. Implement the `RatingsService` interface and fix the repository interfaces.
-5. You might need to add annotations like `@Service`, `@Autowired`, `@Entity` etc. to make the solution work. You might also need to handle cardinality between the models.
-6. We will be using H2 database which is an in-memory SQL database. You do not need to implement any database related code. You just need to use the repository interfaces to interact with the database.
-7. Carefully examining the `TestRatingsController` to understand how your solution will be tested.
